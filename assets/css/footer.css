@@ -1,0 +1,75 @@
+/*PC*/
+@media screen and (min-width:64em) {
+    #Footer {
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        background-color: beige;
+    }
+    .Footer-line {
+
+        width: 100%;
+        height: 10px;
+        border-top: 5px solid #ffc107;
+    }
+
+
+    .Footer-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+
+
+    }
+
+
+}
+/*tablet*/ 
+@media screen and (min-width:46.1876em ) and (max-width:63.9em)  {
+    #Footer {
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        background-color: beige;
+    }
+    .Footer-line {
+
+        width: 100%;
+        height: 10px;
+        border-top: 5px solid #ffc107;
+    }
+
+
+    .Footer-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+
+
+    }
+}
+/*Mobile*/ 
+@media screen and (max-width:46.1875em)  {
+    #Footer {
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        background-color: beige;
+    }
+    .Footer-line {
+
+        width: 100%;
+        height: 10px;
+        border-top: 5px solid #ffc107;
+    }
+
+
+    .Footer-content {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 30px;
+
+
+    }
+}

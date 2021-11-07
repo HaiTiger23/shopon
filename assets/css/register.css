@@ -1,0 +1,298 @@
+.close-label {
+    display: none;
+}
+.close-btn{
+    opacity: 0.2 !important;
+}
+.open-label {
+         font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        width: 90%;
+        outline: none;
+        margin: -10px 10px 0px 10px;
+        height: 36px;
+       background-color: rgba(255,0,0, 0.6);
+       border-radius: 10px;
+}
+/*PC*/
+@media screen and (min-width:64em) { 
+    #Content {
+        height: 500px;
+        background: rgb(254,255,10);
+        background: linear-gradient(90deg, rgba(254,255,10,0.465721322708771) 0%, rgba(254,163,5,0.3368697820925245) 47%, rgba(255,119,0,0.19121151878720233) 100%);
+        
+    }
+    .body-register {
+        display: flex;
+        width: 1000px;
+        height: 80%;
+        margin: auto;
+        
+    }
+    .body-register .baner {
+        margin-top: 20px;
+        margin-left: 10%;
+        width: 50%;
+        height: 450px;
+    }
+    .body-register .baner .logo {
+
+        width: 200px;
+        margin: 20px auto;
+        height: 200px;
+        background: url(http://baitap.davyvietnam.com/WebBanHang/assets/img/logo.png);
+        background-repeat: no-repeat;
+        background-size:contain ;
+
+    }
+    .body-register .baner .banner-text {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        color: #ffc107;
+    }
+    .body-register .register {
+        width: 1000px;
+       margin: 20px 10% 0px 24%;
+
+    }
+    .body-register .register .register-header {
+            background-color: #ffc107;
+            text-align: center;
+            color: #fff;
+            height: auto;
+
+
+    }
+    .body-register .register .register-header h2 {
+        margin-bottom: 0px;
+    }
+    .body-register .register .register-body {
+        border: 2px solid #ffc107;
+    }
+    .body-register .register .register-body .in {
+        position: relative;
+        width: 90%;
+        outline: none;
+        margin: 10px 10px;
+        border: 2px solid #ffc107;
+        height: 36px;
+        border-radius: 4px;
+    }
+    .body-register .register .register-body .check {
+          display: flex;
+    }
+    .body-register .eye-pass-mobile {
+        display: none;
+    }
+    .body-register .register .register-body .eye-pass {
+        position: relative;
+        left: 85%;
+        top: -40px;
+    }
+    .body-register .register .register-body .check .checkPass {
+        width: 20px;
+        margin-left: 16px;
+        margin-right: 20px;
+        height: 20px;
+        margin-top: 6px;
+    }
+    .body-register .register .register-body .check .labelCheck {
+        margin-top: 3px;
+    font-size: 17px;
+    } 
+    .body-register .register .register-body .in:focus-visible {
+        border: 2px solid rgb(216 89 20 / 80%)
+    }
+    .body-register .register .register-body .btn-re {
+        width: 100%;
+        height: 40px;
+        margin-top: 32px;
+        background-color: #ffc107;
+        border: 2px solid #ffc107;
+        color: #fff;
+        font-weight: 600;
+    } 
+    .body-register .register .register-body .btn-re:hover {
+
+        opacity: 0.2;
+    }
+}
+/*Table*/
+@media screen and (min-width:46.1876em ) and (max-width:63.9em) { 
+    #Content {
+        height: 500px;
+        
+    }
+    .body-register {
+        display: flex;
+        width: 800px;
+        height: 80%;
+        margin: auto;
+        
+    }
+    .body-register .baner {
+        margin-top: 20px;
+        margin-left: 10%;
+        width: 50%;
+        height: 450px;
+    }
+    .body-register .baner .logo {
+
+        width: 200px;
+        margin: 20px auto;
+        height: 200px;
+        background: url(http://baitap.davyvietnam.com/WebBanHang/assets/img/logo.png);
+        background-repeat: no-repeat;
+        background-size:contain ;
+
+    }
+    .body-register .baner .banner-text {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        color: #ffc107;
+    }
+    .body-register .register {
+       margin: 20px 10% 0px 10%;
+
+    }
+    .body-register .register .register-header {
+            background-color: #ffc107;
+            text-align: center;
+            color: #fff;
+            height: auto;
+
+
+    }
+    .body-register .register .register-header h2 {
+        margin-bottom: 0px;
+    }
+    .body-register .register .register-body {
+        border: 2px solid #ffc107;
+    }
+    .body-register .register .register-body .in {
+
+        width: 90%;
+        outline: none;
+        margin: 20px 10px;
+        border: 2px solid #ffc107;
+        height: 36px;
+        border-radius: 4px;
+    }
+    .body-register .eye-pass-mobile {
+        display: none;
+    }
+    .body-register .eye-pass {
+        position: relative;
+        left: 85%;
+        top: -50px;
+    }
+    .body-register .register .register-body .check {
+        display: flex;
+  }
+  .body-register .register .register-body .check .checkPass {
+    width: 16px;
+    margin-top: 9px;
+    margin-left: 17px;
+    margin-right: 10px;
+    height: 16px;
+  }
+  .body-register .register .register-body .check .labelCheck {
+      margin-top: 3px;
+  font-size: 17px;
+  } 
+    .body-register .register .register-body .in:focus-visible {
+        border: 2px solid rgb(216 89 20 / 80%)
+    }
+    .body-register .register .register-body .btn-re {
+        width: 100%;
+        height: 40px;
+        margin-top: 32px;
+        background-color: #ffc107;
+        border: 2px solid #ffc107;
+        color: #fff;
+        font-weight: 600;
+    } 
+    .body-register .register .register-body .btn-re:hover {
+
+        opacity: 0.2;
+    }
+}
+/*Mobile*/ 
+@media screen and (max-width:46.1875em)  {
+    .body-register .baner {
+        display: none;
+    }
+    .body-register .register .register-header {
+        text-align: center;
+      color: #ffc107 ;
+        
+    }
+    .body-register .register .register-body .in {
+
+        width: 90%;
+        outline: none;
+        margin: 20px 10px;
+        border: 2px solid #ffc107;
+        height: 36px;
+        border-radius: 4px;
+    }
+    .body-register .register .register-body .check {
+        display: flex;
+  }
+  .body-register .register .register-body .check .checkPass {
+    width: 16px;
+    margin-top: 9px;
+    margin-left: 17px;
+    margin-right: 10px;
+    height: 16px;
+  }
+  .pass-input {
+      position: relative;
+  }
+  .body-register .eye-pass-mobile {
+      text-align: center;
+      max-width: 40%;
+      height: 40px;
+      padding: 5px;
+      border-radius: 5px;
+      line-height: 200%;
+      float: right;
+
+      margin-right: 10%;
+    background-color: #ffc107;
+}
+.body-register .eye-pass-mobile:hover {
+
+    cursor: pointer;
+}
+
+  .body-register .eye-pass {
+     display: none;
+}
+  .body-register .register .register-body .check .labelCheck {
+      margin-top: 5px;
+  font-size: 17px;
+  } 
+    .body-register .register .register-body .in:focus-visible {
+        border: 2px solid rgb(216 89 20 / 80%)
+    }
+    .body-register .register .register-body .btn-re {
+        width: 100%;
+        height: 40px;
+        margin-top: 32px;
+        background-color: #ffc107;
+        border: 2px solid #ffc107;
+        color: #fff;
+        font-weight: 600;
+    } 
+    .body-register .register .register-body .btn-re:hover {
+
+        opacity: 0.2;
+    }
+}
